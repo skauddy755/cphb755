@@ -31,7 +31,6 @@ int linComb(int a, int b, Coeff &dd, Coeff &dr) {
 	dd = dr;
 	dr = rv;
 	return linComb(b, rem, dd, dr);
-	
 }
 
 int inverseModulo(int num, int m) {
