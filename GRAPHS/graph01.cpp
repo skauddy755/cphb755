@@ -252,7 +252,7 @@ int32_t main()
 	
 	// in/out time (TREE and GRAPH both):
 	//-----------------------------------------------------------------
-	/*cout << "\nDFS in/out time:\n";
+	cout << "\nDFS in/out time:\n";
 	vector<int> inTime(n+1, 0);
 	vector<int> outTime(n+1, 0);
 	int src = 1;
@@ -261,7 +261,7 @@ int32_t main()
 	cout << endl;
 	log1(inTime);
 	log1(outTime);
-	cout << "\n===============================\n";*/
+	cout << "\n===============================\n";
 	
 	
 	

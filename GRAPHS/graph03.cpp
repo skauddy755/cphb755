@@ -140,11 +140,17 @@ void dfs_articulationPoints(int node, int par, vector<vector<int>> adj, vector<b
 			{
 				// child of node does not have a back edge to any ancestor of node
 				// so node is an articulation point
+				
+				// NOTE: here par != 0 represents not only the root
+				// but all those nodes which are the starting points of any SSC
+				// hence for the version of dfs working on many SSC, take care to pass (node, 0) as a parameter
 				cout << node << " in \n";
 			}
 			numChildren++;
 		}
 	}
+	
+	// LOL... Yes... Not only for root, but for all those nodes which are dfs_entry_points of some SSC
 	if(par == 0 && numChildren > 1) cout << node << " out \n";
 }
 
