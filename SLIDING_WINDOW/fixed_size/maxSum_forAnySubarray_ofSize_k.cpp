@@ -48,7 +48,7 @@ int32_t main()
 	int n, k; cin >> n >> k;
 	vector<int> arr(n); for(int &x : arr) cin >> x;
 	
-	// Maximum of all subarrays of size k:
+	// Maximum sum of any subarray of size k:
 	int ans = maxSumForAnySubarray(arr, k);
 	cout << ans << endl;
 	return 0;
