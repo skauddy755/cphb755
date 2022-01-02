@@ -1,0 +1,21 @@
+IMPLEMENTATIONS:
+----------------
+https://leetcode.com/problems/last-stone-weight/submissions/
+
+https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/
+
+https://leetcode.com/problems/top-k-frequent-elements/submissions/
+
+https://practice.geeksforgeeks.org/problems/nearly-sorted-algorithm/0
+1. insertion sort       : O(NK)
+2. using priority queue : O(N.log(K))
+
+https://leetcode.com/problems/sliding-window-maximum/submissions/
+1. using lists
+2. using priority queue
+
+https://leetcode.com/problems/merge-k-sorted-lists/
+1. using priority queue : O(N.log(N))
+2. using priority queue : O(N.log(K))
+
+https://leetcode.com/problems/find-median-from-data-stream/
