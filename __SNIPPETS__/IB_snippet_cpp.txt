@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+#define fastio ios_base::sync_with_stdio(false);cin.tie(0);
+#define log1(a) for(auto x:a)cout << x <<" ";cout <<endl;
+#define log2(a,r,c) for(int i=0;i<r;i++){for(int j=0;j<c;j++)cout<<a[i][j]<<" ";cout << endl;}
+
+using namespace std;
+int dx[]={0,0,1,-1},dy[]={1,-1,0,0};
+
+class Solution {
+	
+	private:
+	public:
+	
+	void workingFunction(); // only definition...
+};
+
+void helperFunction1() {
+	cout << "i am helper 1" << endl;
+}
+void helperFunction2() {
+	cout << "i am helper 2" << endl;
+}
+
+void Solution::workingFunction() {
+	// implementation...
+	helperFunction1();
+	helperFunction2();
+}
+
+int main()
+{
+	// taking inputs:
+	// --------------
+	
+	
+	// Calling the working function:
+	// -----------------------------
+	Solution sol;
+	sol.workingFunction();
+	
+	return 0;
+}
